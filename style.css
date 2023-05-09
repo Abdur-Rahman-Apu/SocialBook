@@ -68,3 +68,19 @@ nav {
   outline: 0;
   border: 0;
 }
+
+.online {
+  position: relative;
+}
+
+.online::after {
+  content: "";
+  width: 7px;
+  height: 7px;
+  background: #41db51;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
