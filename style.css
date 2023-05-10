@@ -110,6 +110,10 @@ nav {
   position: sticky;
   top: 70px;
   align-self: flex-start;
+  background: #fff;
+  padding: 20px;
+  color: #626262;
+  border-radius: 5px;
 }
 .main-content {
   flex-basis: 47%;
@@ -149,4 +153,70 @@ nav {
   font-weight: 500;
   color: #626262;
   margin: 15px 0;
+}
+
+.sidebar-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 18px;
+}
+
+.sidebar-title h4 {
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.sidebar-title a {
+  text-decoration: none;
+  color: #1687f2;
+  font-size: 12px;
+}
+
+.event {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.left-event {
+  border-radius: 10px;
+  margin-right: 20px;
+  text-align: center;
+  height: 65px;
+  width: 65px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  position: relative;
+  padding-top: 15px;
+}
+
+.left-event span {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 4px 0;
+  background: #1687f2;
+  width: 100%;
+  color: #fff;
+  font-size: 10px;
+}
+
+.right-event h4 {
+  margin-bottom: 5px;
+}
+
+.right-event p {
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+
+.right-event p i {
+  margin-right: 5px;
+}
+.right-event a {
+  font-size: 12px;
+  text-decoration: none;
+  color: #1687f2;
 }
