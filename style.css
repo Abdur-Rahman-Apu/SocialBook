@@ -101,7 +101,6 @@ nav {
 .left-sidebar {
   flex-basis: 25%;
   position: sticky;
-
   top: 70px;
   align-self: flex-start;
 }
@@ -372,4 +371,76 @@ nav {
 .add-post-links a img {
   width: 20px;
   margin-right: 10px;
+}
+
+.post-container {
+  width: 100%;
+  background-color: #fff;
+  color: #626262;
+  margin: 20px 0;
+  padding: 20px;
+  border-radius: 6px;
+}
+
+.user-profile span {
+  font-size: 13px;
+  color: 9a9a9a;
+}
+
+.post-text {
+  font-size: 13px;
+  margin: 15px 0;
+  color: #9a9a9a;
+}
+
+.post-text span {
+  font-weight: 500;
+  color: #626262;
+}
+.post-text a {
+  text-decoration: none;
+  color: #1687f2;
+}
+
+.post-img {
+  width: 100%;
+  border-radius: 4px;
+  margin-bottom: 5px;
+}
+
+.post-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.post-row .activity-icons div {
+  display: inline-flex;
+  align-items: center;
+  margin-right: 30px;
+}
+
+.post-row .profile-pic {
+  width: 45px;
+  object-fit: cover;
+}
+.post-row .activity-icons img {
+  width: 18px;
+  margin-right: 5px;
+}
+
+.post-profile-icon {
+  display: flex;
+  align-items: center;
+}
+
+.post-profile-icon img {
+  width: 30px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+.post-profile-icon a {
+  text-decoration: none;
+  font-size: 12px;
 }
