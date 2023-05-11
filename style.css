@@ -462,3 +462,32 @@ footer p {
   color: #9a9a9a;
   padding: 10px 0 20px;
 }
+
+/* settings-menu  */
+
+.settings-menu {
+  position: absolute;
+  top: 108%;
+  right: 5%;
+  background-color: #fff;
+  width: 90%;
+  max-width: 350px;
+  height: 500px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+  border-radius: 5px;
+}
+
+.settings-menu-inner {
+  padding: 20px;
+}
+
+.settings-menu-inner .user-profile a {
+  text-decoration: none;
+  color: #1687f2;
+  font-size: 13px;
+}
+
+.settings-menu hr {
+  background-color: #9a9a9a;
+  margin: 15px 0;
+}
