@@ -184,3 +184,39 @@
   font-size: 13px;
   margin-top: 5px;
 }
+
+@media screen and (max-width: 900px) {
+  .profile-container {
+    padding: 10px 5%;
+  }
+
+  .profile-details {
+    flex-wrap: wrap;
+  }
+
+  .pd-row div h3 {
+    font-size: 20px;
+  }
+
+  .pd-right {
+    text-align: left;
+    margin-top: 20px;
+  }
+
+  .pd-right button {
+    margin-left: 0;
+    margin-right: 10px;
+  }
+
+  .profile-info {
+    flex-wrap: wrap;
+  }
+
+  .info-col {
+    flex-basis: 100%;
+  }
+
+  .post-col {
+    flex-basis: 100%;
+  }
+}
