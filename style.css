@@ -517,3 +517,29 @@ footer p {
   color: #1687fe;
   font-size: 14px;
 }
+
+.dark-btn {
+  position: absolute;
+  background-color: #ccc;
+  width: 45px;
+  padding: 2px 3px;
+  top: 20px;
+  right: 20px;
+  border-radius: 15px;
+  cursor: pointer;
+  display: flex;
+  transition: padding-left 0.4s, background 0.5s;
+}
+
+.dark-btn span {
+  width: 18px;
+  height: 18px;
+  background-color: #fff;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.dark-btn-on {
+  padding-left: 25px;
+  background-color: #000;
+}
