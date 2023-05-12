@@ -1,0 +1,84 @@
+.profile-container {
+  padding: 10px 15%;
+  color: #626262;
+}
+
+.profile-container .cover-pic {
+  width: 100%;
+  margin-bottom: 20px;
+  border-radius: 6px;
+}
+
+.profile-details {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: var(--bg-color);
+}
+
+.pd-row {
+  display: flex;
+  align-items: flex-start;
+}
+
+.pd-row .pd-image {
+  width: 100px;
+  border-radius: 6px;
+  margin-right: 14px;
+}
+
+.pd-row div h3 {
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.pd-row div p {
+  font-size: 13px;
+}
+
+.pd-row div img {
+  width: 25px;
+  margin: 5px 1px 10px 0;
+  border-radius: 50%;
+}
+
+.pd-right button {
+  display: inline-flex;
+  align-items: center;
+  background-color: #1876f2;
+  border: 0;
+  outline: 0;
+  color: #fff;
+  cursor: pointer;
+  margin-left: 10px;
+  border-radius: 3px;
+  padding: 6px 10px;
+}
+
+.pd-right button img {
+  height: 15px;
+  margin-right: 10px;
+}
+
+.pd-right button:first-child {
+  color: #000;
+  background-color: #e4e6eb;
+}
+
+.pd-right {
+  text-align: right;
+}
+
+.pd-right a {
+  border-radius: 3px;
+  background-color: #e4e6eb;
+  padding: 10px;
+  display: inline-flex;
+  margin-top: 30px;
+}
+
+.pd-right a img {
+  width: 20px;
+}
