@@ -565,7 +565,7 @@ footer p {
   background-color: #9a9a9a;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 900px) {
   .search-box {
     display: none;
   }
@@ -575,7 +575,7 @@ footer p {
     margin-right: 10px;
   }
   .nav-left ul li img {
-    width: 20px;
+    width: 18px;
     margin: 0 8px;
   }
   .user-icon img {
