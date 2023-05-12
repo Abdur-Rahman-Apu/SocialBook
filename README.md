@@ -12,9 +12,9 @@ This is a social media website (Front-end part).
 
 ## Screenshots
 
-![Home page](src/assets/screenshots/home.png)
+![Home page](screenshots/home.png)
 
-![Profile page](src/assets/screenshots/profile.png)
+![Profile page](screenshots/profile.png)
 
 # Technologies (Frameworks or libraries or packages or database)
 
