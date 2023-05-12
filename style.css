@@ -11,12 +11,14 @@
   --bg-color: #fff;
   --primary-color: #edf2fc;
   --secondary-color: #212121;
+  --textarea-color: black;
 }
 
 .dark-theme {
   --body-color: #0a0a0a;
   --nav-color: #000;
   --bg-color: #000;
+  --textarea-color: #fff;
 }
 
 body {
@@ -328,7 +330,7 @@ nav {
 
 .write-post-container {
   width: 100%;
-  background-color: #fff;
+  background-color: var(--bg-color);
   border-radius: 6px;
   padding: 20px;
   color: #626262;
@@ -365,6 +367,8 @@ nav {
   resize: none;
   outline: 0;
   border-bottom: 1px solid #626262;
+  background-color: var(--bg-color);
+  color: var(--textarea-color);
 }
 
 .add-post-links {
@@ -529,6 +533,9 @@ footer p {
   text-decoration: none;
   color: #1687fe;
   font-size: 14px;
+}
+.settings-menu-inner .user-profile div p {
+  color: var(--textarea-color);
 }
 
 .dark-btn {
